@@ -37,8 +37,12 @@ Packages required (all installable via `pip install`):
 - `fooof` ([repo](https://github.com/fooof-tools/fooof))
 - `sbi` ([repo](https://github.com/mackelab/sbi))
   
-Should already have as dependencies:
-- `jupyter`
-- `matplotlib`
-- `numpy`
-- `scipy`
+To set up and run in a new conda environment:
+```
+conda create -n sbsp python=3.8
+conda activate sbsp
+pip install fooof
+pip install neurodsp
+pip install sbi
+pip install jupyter
+```
