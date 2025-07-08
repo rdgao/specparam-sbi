@@ -18,7 +18,7 @@ To set up and run in a new conda environment:
 conda create -n sbsp python=3.8
 conda activate sbsp
 pip install uv
-uv pip install jupyter fooof neurodsp sbi
+uv pip install jupyter fooof neurodsp sbi==0.22
 ```
 
 For more complex mechanistic model simulations with spiking neural networks, go to [AutoMIND](https://github.com/mackelab/automind).
